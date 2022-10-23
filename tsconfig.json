@@ -1,6 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "typeRoots": ["./src/@types/*"],
     "baseUrl": "./",
     "paths": {
       "@assets/*": [
@@ -17,10 +18,7 @@
       ],
       "@storage/*": [
         "./src/storage/*"
-      ],
-      "@theme/*": [
-        "./src/theme/*"
-      ],
+      ],      
       "@utils/*": [
         "./src/utils/*"
       ]

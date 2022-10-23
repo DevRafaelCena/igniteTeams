@@ -18,7 +18,7 @@ export default function App() {
       translucent
       
       />
-      { !fontsLoaded ? <Groups/> : <Loading /> }
+      { fontsLoaded ? <Groups/> : <Loading /> }
     </ThemeProvider>
   );
 }
